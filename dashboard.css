@@ -14,9 +14,13 @@
 .section0 img {
     width: 30px;
     height: 30px;
-    margin-right: 10px;
 }
 .section0 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.section1 div {
     display: flex;
     align-items: center;
     gap: 5px;
