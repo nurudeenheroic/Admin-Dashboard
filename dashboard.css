@@ -4,7 +4,8 @@
     gap: 20px;
     padding: 20px;
     width: 18%;
-    background-color: lightblue;
+    background-color: rgb(31, 160, 195);
+    color: white;
 }
 .section1 div img {
     width: 20px;
