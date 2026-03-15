@@ -28,4 +28,7 @@
 .section1 div {
     display: flex;
     align-items: center;
+    padding-left: 5px;
+    gap: 5px;
+    
 }
