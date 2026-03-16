@@ -1,0 +1,128 @@
+.main{
+    background-color: rgb(216, 216, 216);
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 15px;
+    gap:20px ;
+}
+.project-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 3;
+    height: 100%;
+}
+.project-section p{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 500;}
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 45px;
+}
+.project-example{
+    border-left: 4px solid goldenrod;
+    background-color: white;
+    padding: 25px 20px;
+    border-radius: 5px;
+}
+.project-example h2{
+    font-weight: 700;
+    margin: 0px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.project-example p{
+    font-size: 12px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.icon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+}
+.project-icon {
+    width: 20px;
+    height: 20px;
+}
+.announcement-trending{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0px;
+}
+.announcement-section {
+    padding: 25px 20px 20px 20px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+.announcement-trending h3{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    background-color: rgb(216, 216, 216);
+}
+.announcement-section h4, .trending-section h4 {
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.announcement-section div, .trending-section div{
+    border-bottom:1px solid rgb(189, 189, 189) ;
+    padding-bottom: 15px;
+}
+.announcement-section div:last-child,
+.trending-section div{
+    border-bottom: none;
+}
+.announcement-section p,
+.trending-section p{
+    margin: 0px;
+    font-size: 12px;
+}
+.trending-section{
+    display: flex;
+    flex-direction: row;
+    padding: 25px 20px 20px 20px;
+    gap: 15px;
+    border-radius: 5px;
+    background-color: white;
+}
+.images img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid red;
+    background-color: burlywood;
+}
+.trending-section h4{
+    margin-bottom: 2px;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.words{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+}
+.announcement-trending h3:last-child{
+    padding: 0px;
+}
